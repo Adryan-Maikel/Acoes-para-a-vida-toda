@@ -1,0 +1,149 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    color: black;
+
+}
+header{
+    background-color: green;
+    color: white;
+    width: 100%;
+    height: 50px;
+    position: fixed
+}
+header h1{
+    text-shadow: -4px 4px 4px black;
+    width: 52%;
+    height: 50px;
+    float: left;
+    text-align: center;
+}
+header ul{
+    height: 50px;
+}
+header ul a li{
+    height: 35px;
+    width: 16%;
+    padding-top: 15px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+header ul a li:hover{
+    animation: hover 3s infinite;
+    cursor: pointer;
+}
+@keyframes hover{
+    0%{
+        background-color: green;
+    }
+    50%{
+        font-weight: 500;
+        text-shadow: 0 3px 0 black;
+        background-color: darkgreen;
+    }
+    100%{
+        background-color: green;
+    }
+}
+header ul a li{
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+}
+section{
+    height: 800px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section h2{
+    width: 50%;
+    text-align: right;
+    float: left;
+    padding: 30px;
+    font-size: 28px;
+}
+section div figure img{
+    height: 94px;
+}
+#bbas3{
+    padding-top: 50px;
+}
+#bbas3 .topo{
+    background-color: #fdfc32;
+    color: #465efc;
+    width: 100%;
+    height: 94px;
+}
+#bbas3 .corpo{
+    background-color: #fdfd3242;
+    width: 100%;
+    height: 756px;
+}
+
+
+
+
+#taee11{
+    padding-top: 50px;
+}
+#taee11 .topo{
+    background-color: rgb(238, 237, 237);
+    width: 100%;
+    height: 94px;
+}
+#taee11 .topo h2{
+    color: #002869;
+}
+#taee11 .topo figure img{
+    height: 64px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#taee11 .corpo{
+    background-color: rgba(238, 237, 237, 0.5);
+    width: 100%;
+    height: 756px;
+}
+
+
+
+
+#klbn11{
+    padding-top: 50px;
+}
+#klbn11 .topo{
+    background-color: #00a15e;
+    color: white;
+    width: 100%;
+    height: 94px;
+}
+#klbn11 .topo figure img{
+    height: 82px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#klbn11 .topo h2{
+    margin-left: -5%;
+}
+#klbn11 .corpo{
+    background-color: #00a15e50;
+    width: 100%;
+    height: 756px;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: red;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 8px;
+}
